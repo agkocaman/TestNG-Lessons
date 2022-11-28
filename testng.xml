@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="GK">
-  <test thread-count="5" name="AlertTest">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="test.day1"/>
-      <class name="test.day2"/>
-      <class name="test.day3"/>
-      <class name="test.day4">
+      <class name="test.day1">
       <methods>
-      	<exclude name="web.*"></exclude>
+ 		<include name="day1_2"></include>
       </methods>
       </class>
+      
+      <class name="test.day2">
+      	<methods>
+      		<exclude name="day2_2"></exclude>
+      	</methods>
+      </class>
+      
+      <class name="test.day3"/>
+      <class name="test.day4"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
