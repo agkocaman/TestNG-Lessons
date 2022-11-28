@@ -5,6 +5,12 @@
     <classes>
       <class name="test.day1"/>
       <class name="test.day2"/>
+      <class name="test.day3"/>
+      <class name="test.day4">
+      <methods>
+      	<exclude name="web.*"></exclude>
+      </methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -6,7 +6,7 @@ public class day2 {
 	@Test
 	public void good() {
 		
-		System.out.println("Good Bro!");
+		System.out.println("Day-2-Good");
 		
 	}
 
